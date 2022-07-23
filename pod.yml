@@ -7,5 +7,5 @@ containers:
 - name: Tomcat
 image: tomcat:8.0
 ports:
-containerPort: 8080
+- containerPort: 8080
 imagePullPolicy: Always
